@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Verdana;
+	font-size: 0.8em;
+	width: 100%;
+	font-family: 'Actor';font-size: 22px;
+}
+#root{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+.App{
+   width: 300px;
+   background-color: rgb(237, 237, 237);
+   padding: 2%;
+   color:white
+   
+}
+.card{
+	background-color: orange;
+	margin: 20px 0px;
+	min-height: 225px;
+	padding: 15px;
+	border-radius: 5px;
+}
+.header{
+	border-bottom :1px solid rgb(184, 184, 184);
+	display: flex;
+	align-items: center;
+}
+h2{
+padding: 5px 0px;
+font-size: 22px;
+}
+h1{
+	font-size: 23px;
+	margin:10px 0px;
+}
+p{
+	font-size: 18px;
+}
